@@ -80,3 +80,22 @@ img {
         width: 250px;
     }
 }
+
+details {
+    border: 1px dashed rgb(2 138 158);
+}
+
+details summary {
+    background-color: rgb(2 138 158);
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+details div {
+    background-color: rgba(2, 138, 158, 0.20);
+}
+
+details div p:last-child {
+    margin: 0;
+}
