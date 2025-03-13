@@ -90,12 +90,44 @@ details summary {
     color: white;
     font-style: italic;
     font-weight: bold;
+    line-height: 50px;
+    align-items: center;
+    font-size: larger;
 }
+
 
 details div {
     background-color: rgba(2, 138, 158, 0.20);
+    padding: 10px;
 }
 
 details div p:last-child {
     margin: 0;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+table {
+    width: 75%;
+    margin-inline: auto;
+}
+
+tr {
+    height: 40px;
+}
+
+thead {
+    background-color: black;
+    color: white;
+}
+
+tbody tr:nth-child(ODD) {
+    background-color: lightgray;
+}
+
+.gram {
+    text-align: center;
 }
